@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Acme', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acme-Regular'), format('tff');
+}
+    
+.roll{
+    padding: 30px;
+}
+
+.wrap {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+}
+
+.roll .wrap h1,h5 {
+    font-family: 'Acme';   
+    font-weight: bold;  
+}
+
+p {
+    color: grey;
+}
+
+@media (max-width: 800.98px) {
+    .roll {
+        padding: 0px;
+    }
+    .wrap {
+        width: 100%;
+    }
+}

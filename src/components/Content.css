@@ -1,0 +1,40 @@
+.content {
+    display: table;
+    width: 90%;
+    height: 100%;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .side {
+    display: table-cell;
+    width: 28%;
+    padding: 3em;
+    vertical-align: top;
+  }
+  
+  .mainContent {
+    display: table-cell;
+    width: 72%;
+    padding: 1.5em;
+    vertical-align: top;
+  }
+
+  @media (max-width: 1199.98px) {
+     .side, .mainContent {
+      display: table-row;
+    }
+
+    .side, .mainContent {
+      padding: 0px;
+    }
+  
+  }
+
+  @media (max-width: 799.98px) {
+    .content {
+      width: 98%;
+    }
+  }
+  
